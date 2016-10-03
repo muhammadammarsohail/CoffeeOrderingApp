@@ -95,7 +95,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Order Summary"
-                android:textAllCaps="true" />
+                android:textAllCaps="true"
+                android:visibility="gone"/>
 
             <TextView
                 android:id="@+id/order_summary_text_view"
@@ -105,7 +106,8 @@
                 android:paddingTop="16dp"
                 android:text="0"
                 android:textColor="@android:color/black"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:visibility="gone"/>
 
             <Button
                 android:layout_width="wrap_content"

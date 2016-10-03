@@ -87,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(Intent.EXTRA_SUBJECT, "Just Java order for " + name);
         intent.putExtra(Intent.EXTRA_TEXT, orderSummary);
 
+
+
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
