@@ -110,8 +110,8 @@
                 android:text="ORDER"
                 android:layout_marginTop="32dp"/>
 
-        </LinearLayout>
 
+        </LinearLayout>
 
     </LinearLayout>
 
