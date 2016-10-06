@@ -32,7 +32,7 @@
             <TextView
                 android:layout_marginBottom="10dp"
                 android:text="Toppings"
-                style="HeaderTextStyle" />
+                style="@style/HeaderTextStyle" />
 
             <CheckBox
                 android:id="@+id/whipped_cream_check_box"
@@ -55,7 +55,7 @@
             <TextView
                 android:layout_marginBottom="10dp"
                 android:text="Quantity"
-                style="HeaderTextStyle" />
+                style="@style/HeaderTextStyle" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -89,7 +89,7 @@
             <TextView
                 android:layout_marginTop="16dp"
                 android:text="Order Summary"
-                style="HeaderTextStyle"
+                style="@style/HeaderTextStyle"
                 android:visibility="gone"/>
 
             <TextView
@@ -107,7 +107,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="submitOrder"
-                android:text="ORDER" />
+                android:text="ORDER"
+                android:layout_marginTop="32dp"/>
 
         </LinearLayout>
 
